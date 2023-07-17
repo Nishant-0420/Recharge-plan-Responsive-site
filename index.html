@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RECHARGES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Sono', sans-serif;
+      background-image: url(./reliance-jio.jpg);
+      background-position: center;
+      background-repeat: none;
+      overflow: hidden;
+    }
+    .outer{
+      display: flex;
+      justify-content: center;
+    }
+    .phone-recharge{
+      margin-top: 70px;
+      background-color: lightblue;
+      border-radius: 15px;
+      width: 75%;
+    }
+    .phone-recharge:hover{
+      background-color: blue;
+
+    }
+    h1{
+     text-align: center;
+     font-size: 4rem;
+    }
+    .pricing-container{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 13%;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .pricing-plan{
+      background-color: antiquewhite;
+      flex-basis: 300px;
+      max-width: 450px;
+      text-align: center;
+      padding: 30px;
+      border-radius: 20px;
+      ;
+    }
+      .pricing-plan:hover{
+       background-color: lightgreen;
+      }
+    .plan-title{
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .plan-price{
+      text-align: center;
+      font-size: xx-large;
+      font-weight: bolder;
+      margin-top: 5px;
+    }
+    .plan-features{
+      list-style:none ;
+
+    }
+    .plan-button{
+      cursor: pointer;
+    }
+
+    /* Hint: What can you do with a media query and flexbox? */
+    @media (max-width: 1250px) {
+      
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  <div class="outer"><div class="phone-recharge"><h1>TOP PHONE RECHARGES</h1></div></div>
+  <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">Basic</div>
+      <div class="plan-price">₹199/month</div>
+      
+      <ul class="plan-features">
+        <li>✅ 1GB/day total 30GB</li>
+        <li>✅ 100 SMS/day</li>
+        <li>✅ Unlimited Voice</li>
+      </ul>
+      <button class="plan-button">Recharge</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Standard</div>
+      <div class="plan-price">₹299/month</div>
+      <ul class="plan-features">
+        <li>✅ 2GB/day total 60GB</li>
+        <li>✅ 100 SMS/day</li>
+        <li>✅ Unlimited Voice</li>
+      </ul>
+      <button class="plan-button">Recharge</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Premium</div>
+      <div class="plan-price">₹399/month</div>
+      <ul class="plan-features">
+        <li>✅ 3GB/day total 90GB </li>
+        <li>✅ 100 SMS/day</li>
+        <li>✅ Unlimited Voice</li>
+      </ul>
+      <button class="plan-button">Recharge</a>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
